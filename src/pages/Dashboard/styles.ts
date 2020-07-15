@@ -9,6 +9,11 @@ import {shade} from 'polished'
      margin-top: 80px;
 `
 
+export const Example = styled.div`
+    margin: 20px;
+   color: #a8a8b3;
+`
+
 export const Form = styled.form`
         margin-top: 40px;
         max-width: 700px;

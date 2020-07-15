@@ -4,7 +4,7 @@ import {Link} from 'react-router-dom'
 import api from '../../services/api'
 
 import logoImg from '../../assets/logo.svg'
-import {Title, Form, Repositories} from './styles'
+import {Title, Example, Form, Repositories} from './styles'
 
 interface Repository {
    full_name: string;
@@ -49,6 +49,7 @@ const Dashboard: React.FC = () => {
                     <input value={newRepo} onChange={(e) => setNewRepo(e.target.value)} placeholder='Digite o nome do repositório'></input>
                     <button type="submit">Pesquisar</button>
                </Form>
+               <Example><small>Ex: pablobion/github-explorer</small></Example>
                <Repositories>
                     {repositories.map(repository =>(
                          <Link key={repository.full_name} to={`/repositories/${repository.full_name}`}>

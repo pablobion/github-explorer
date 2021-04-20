@@ -24,6 +24,8 @@
   <a href="#-license">License</a>
 </p>
 
+## Demo: https://githubs-explorer.netlify.app/
+
 ## 💇🏻‍♂️ Sobre o projeto
 
 Projeto desenvolvido em typescript e reactjs, para buscar repositórios e informações como issues, starts, forks contidas dentro do github utilizando a api fornecida pelo próprio github.
